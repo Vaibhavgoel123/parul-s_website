@@ -1,0 +1,122 @@
+* {
+    padding: 0px;
+    margin: 2px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img {
+    width: 180px;
+    height: 58px;
+
+}
+
+.options ul {
+    display: flex;
+    font-weight: 400;
+    font-size: 16px;
+    gap: 34px;
+}
+
+.options ul li {
+    list-style: none;
+}
+
+/*.options ul li img{
+    width:22px;
+}*/
+h1 {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+h3 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.3em;
+    word-wrap: break-word;
+    padding-bottom: 10px;
+}
+
+.box{
+    display: inline-flex;
+    /* flex-wrap: wrap;*/
+    background-color: #09a6bd;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    margin-left: 566px;
+    margin-top: 20px
+}
+
+.box2 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin-left:110px;
+    margin-top: 60px;
+}
+.small{
+    font-size:small
+}
+.big{
+    font-size: 21px;
+    font-weight: 400;
+}
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 14px;
+    padding-right: 14px;
+    justify-items: center;
+    row-gap: 20px;
+    column-gap: 20px;
+}
+.green{
+    background-color: #5cb85c;
+}
+.item-lang{
+    font-weight: bold;
+    padding:17px;
+    text-align: center;
+}
+.btn{
+    display: grid;
+    justify-content: center;
+    border:none;
+    border-radius: 5px;
+    color: white;
+    padding:15px
+}
+.item{
+    background-color: #abb8c32e;
+    padding-bottom: 43px;
+    padding-left: 82px;
+    padding-right: 82px;
+    padding-top:43px;
+    box-sizing: border-box;
+}
+/*.item-lang div{
+    font-size:20px;
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 20px;
+}*/
